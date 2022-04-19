@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+h1 {
+    color: rgb(255, 214, 9);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 214, 9);
+}
+
+td {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    background-color: transparent;
+    font-family: sans-serif;
+    border: none;
+    width: 100%;
+    color: #fff;
+    border-radius: 2px;
+}
+
+button:hover {
+    background-color: rgb(255, 214, 9);
+}
+
+.kids-form {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(255, 214, 9);
+    border-radius: 10px;
+}
+
+.label-header {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.minion {
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    display: flex;
+}
+
+.careers-table {
+    width: 80%;
+    color: #fff;
+}
+
+.careers-table td, .careers-table th{
+    border: 1px solid rgb(255, 214, 9);
+    border-radius: 2px;
+}
+
+.alem-inp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit {
+    background-color: rgb(255, 214, 9);
+    border: none;
+    color: #fff;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: rgb(195, 163, 2);
+}
